@@ -1,66 +1,70 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-marquee{
+marquee {
     background-color: black;
 }
 
-.head-master marquee p{
-    color:gold;
+.head-master marquee p {
+    color: gold;
     display: flex;
     gap: 50px;
     font-family: cursive;
     font-size: 12px;
 }
 
-.part-1{
+.part-1 {
     /* background-color: blue; */
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
 }
-input{
+
+input {
     width: 200px;
     height: 25px;
     border-radius: 20px;
     border: 2px solid black;
     padding-left: 5vw;
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
     position: absolute;
     font-size: 15px;
     top: 8px;
-    left:5px;
+    left: 5px;
 }
 
-.jome{
-    position:relative;
+.jome {
+    position: relative;
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 17px;
 }
 
-.jome-baby a{
+.jome-baby a {
     font-size: 15px;
     color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration:none ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 
-.jome-baby a:hover{
+.jome-baby a:hover {
     color: rgb(47, 47, 167);
-    transition: 0.5s ;
+    transition: 0.5s;
     font-size: 17px;
 }
-.fa-chevron-down hover:lightness{
+
+.fa-chevron-down hover:lightness {
     color: rgb(47, 47, 167);
-    transition: 0.5s ;
+    transition: 0.5s;
 }
 
-.img-box{
+.img-box {
     background-image: url(../img/c837a6_977fd116499b43ae8f309afaf18cbade~mv2.avif);
     height: 100vh;
     width: auto;
@@ -68,8 +72,8 @@ input::placeholder{
     padding-top: 50px;
     padding-left: 50px;
 }
-.img-box .text p{
+
+.img-box .text p {
     font-size: 60px;
     font-weight: 600;
-
 }
