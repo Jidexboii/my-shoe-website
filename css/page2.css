@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #bk-img{
+    background-image: url(../img/927c7a2d16468133f3c72be9046102d4.jpg);
+    background-size:cover;
+    height: 70vh;
+    width: 100vw;
+}
+#bk-img p{
+    height: 70px;
+    width: 100px;
+    background-color: blanchedalmond;
+} */
+
+marquee{
+    background-color: black;
+}
+
+.head-master marquee p{
+    color:gold;
+    display: flex;
+    gap: 50px;
+    font-family: cursive;
+    font-size: 12px;
+}
+
