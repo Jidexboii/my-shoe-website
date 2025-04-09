@@ -80,3 +80,27 @@ input::placeholder {
     
 }
 
+.box-2{
+    background-image: url(../img/c837a6_85f98ee8e54f46219d6accebd1eac92a~mv2.avif);
+    height: 100vh;
+    width: auto;
+
+}
+
+
+.img-box-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    background-color:black;
+}
+
+.box-contain {
+    height: 30vh;
+    width: 30vw;
+    color: rgb(19, 18, 18);
+    margin: 20px;
+    box-shadow: 0 0 15px rgba(235, 136, 6, 0.815);
+
+}
