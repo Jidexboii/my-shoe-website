@@ -96,10 +96,31 @@ input::placeholder {
     background-color:black;
 }
 
+#head-text{
+    width: 100vw;
+    height: 50px;
+    background-color: aqua;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head-text-inner{
+    width: ;
+}
+
 .box-contain {
-    height: 30vh;
+    height: 50vh;
     width: 30vw;
     margin: 20px;
     box-shadow: 0 0 15px rgba(235, 136, 6, 0.788);
 
+}
+
+.box-contain img{
+    height: 50vh;
+    width: 30vw;
+    background-size: cover;
 }
