@@ -124,7 +124,7 @@ marquee:hover{
 }
 
 .box-contain {
-    height: 70vh;
+    height: 68vh;
     width: 30vw;
     margin: 20px;
     box-shadow: 0 0 15px rgba(216, 127, 10, 0.74);
@@ -135,4 +135,10 @@ marquee:hover{
     height: 60vh;
     width: 30vw;
     background-size: cover;
+}
+
+.box-contain p{
+    color: white;
+    height: 7vh;
+    /* background-color: white; */
 }
