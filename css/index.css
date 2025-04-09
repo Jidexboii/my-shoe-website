@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 marquee {
     background-color: black;
@@ -98,29 +101,38 @@ input::placeholder {
 
 #head-text{
     width: 100vw;
-    height: 50px;
-    background-color: aqua;
-    color: white;
+    height: 4vh;
     margin: 10px;
-    font-size: 20px;
-    font-weight: 900;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.head-text-inner{
-    width: ;
+.text-inner marquee{
+    width: 55vw;
+    height: 4vh;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgba(255, 228, 196, 0.205);
+    color: black;
+}
+ marquee span{
+    word-spacing: 5px;
+}
+marquee:hover{
+    color: blue;
+    font-size:24px ;
+    transition: 1.5s;
 }
 
 .box-contain {
-    height: 50vh;
+    height: 70vh;
     width: 30vw;
     margin: 20px;
-    box-shadow: 0 0 15px rgba(235, 136, 6, 0.788);
+    box-shadow: 0 0 15px rgba(216, 127, 10, 0.74);
 
 }
 
 .box-contain img{
-    height: 50vh;
+    height: 60vh;
     width: 30vw;
     background-size: cover;
 }
