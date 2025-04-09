@@ -99,8 +99,7 @@ input::placeholder {
 .box-contain {
     height: 30vh;
     width: 30vw;
-    color: rgb(19, 18, 18);
     margin: 20px;
-    box-shadow: 0 0 15px rgba(235, 136, 6, 0.815);
+    box-shadow: 0 0 15px rgba(235, 136, 6, 0.788);
 
 }
